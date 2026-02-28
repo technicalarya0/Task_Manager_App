@@ -1,0 +1,11 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Start Django Backend",
+			"type": "shell",
+			"command": "& ${env:USERPROFILE}\\AppData\\Local\\Programs\\Python\\Python311\\python.exe -m venv .venv 2>$null; & .venv\\Scripts\\Activate.ps1; cd backend; python manage.py runserver 0.0.0.0:8000",
+			"isBackground": true
+		}
+	]
+}

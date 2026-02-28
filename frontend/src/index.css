@@ -1,0 +1,13 @@
+/* basic global styles */
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 1rem; /* spacing at edges on small screens */
+  display: flex;
+  justify-content: center;
+  align-items: center; /* vertical centering */
+  color: #333;
+}
