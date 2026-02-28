@@ -2,7 +2,7 @@
 
 This repository contains a Django REST backend with a React+Vite frontend for managing simple tasks.
 
-## Setup
+## Setup 
 
 ### Backend
 
